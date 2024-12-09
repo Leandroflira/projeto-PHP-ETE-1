@@ -1,4 +1,4 @@
-<div class="body-bg">
+<div class="container">
         <header class="header">
             <a class="logo" href="<?=constant('URL_LOCAL_SITE_PAGINA').'principal'?>">InfoSports</a>
             <div class="headerBtnGroup">
@@ -19,10 +19,10 @@
                 <div class="line"></div>
             </div>
         </header>
-        <section class="main">
+        <section>
       <div class="box-content">
         <form method="POST" action="#">
-          <h1>Cadastre-se para acompanhar as notícias!</h1>
+          <h1>Cadastrar Categoria</h1>
           <div class="name">
             <label for="nome"></label>
             <input type="text" placeholder="Nome" id="nome" name="nome" >
@@ -43,7 +43,7 @@
             <input type="text" placeholder="Login" id="login" name="login">
             <p id="tel-ajuda" class="msg-ajuda" style="display:none;">Insira um telefone válido. (11 números)</p>
           </div>
-          <div class="telefone">
+          <div class="email">
             <label for="senha"></label>
             <input type="password" placeholder="Senha" id="senha" name="senha">
             <p id="tel-ajuda" class="msg-ajuda" style="display:none;">Insira um telefone válido. (11 números)</p>
@@ -53,9 +53,9 @@
         </form>
       </div>
     </section>
+    </div>
 
         <footer class="footer">
             <span>Info Sports</span>
             <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
         </footer>
-    </div>

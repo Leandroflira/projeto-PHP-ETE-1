@@ -1,11 +1,14 @@
+
 <div class="container">
-    <header class="header">
-      <a class="logo"  href="<?=constant('URL_LOCAL_SITE_PAGINA').'principal'?>">InfoSports</a>
-      <div class="headerBtnGroup">
-        <?php include_once("menuTopo.php");?>
+  <header class="header">
+    <a class="logo"  href="<?=constant('URL_LOCAL_SITE_PAGINA').'principal'?>">InfoSports</a>
+    <div id="itens" class="headerBtnGroup">
+      <?php include_once("menuTopo.php");?>
+      <div>
+        </div>
         <div>
           <input type="checkbox" class="check" id="chk"/>
-
+          
           <label class="label" for="chk">
             <i class="fas fa-moon"></i>
             <i class="fas fa-sun"></i>
@@ -19,6 +22,7 @@
         <div class="line"></div>
       </div>
     </header>
+    <!-- <span class="material-symbols-outlined" onclick="clickMenu()">menu</span> -->
     <p class="sectionTitle" id="backToTop"><?=$tituloDoSite?></p>
     <p class="sectionDescription"><strong><?=$subTituloDoSite?></strong></p>
     <section class="gridContainer">
@@ -65,3 +69,8 @@
       <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
     </footer>
   </div>
+  <!-- <script>
+    function clickMenu() {
+      itens.style.displey = 'block'
+    }
+  </script> -->

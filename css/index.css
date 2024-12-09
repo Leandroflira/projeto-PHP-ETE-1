@@ -1,181 +1,182 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
-    font-family: 'Poppins', sans-serif;
-    padding: 0;
-    margin: 0;
+  font-family: "Poppins", sans-serif;
+  padding: 0;
+  margin: 0;
 }
 
 .container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .sectionTitle {
-    font-size: 26px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding-top: 20px;
+  padding-top: 60px;
+  color: #231500;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding-top: 20px;
 }
 
 .sectionDescription {
-    text-align: center;
-    color: #383838;
+  text-align: center;
+  color: #231500;
 }
 
 .gridContainer {
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas: "mainContent sidebarContent";
-    padding: 20px;
-    flex: 1 0 auto;
-    padding-bottom: 80px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas: "mainContent sidebarContent";
+  padding: 20px;
+  flex: 1 0 auto;
+  padding-bottom: 80px;
 }
 
 .mainContent {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 30px;
-    column-gap: 50px;
-    grid-area: mainContent;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  column-gap: 50px;
+  grid-area: mainContent;
 }
 
 .categoryCard {
-    width: 280px;
-    height: 430px;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    transition: 0.5s;
-    cursor: pointer;
+  width: 280px;
+  height: 430px;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .mainCardImg {
-    width: 100%;
-    height: 180px;
-    border-radius: 10px;
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
 }
 
 .categoryCard:hover {
-    border-color: #8f8f8f;
+  border-color: #e4811e;
 }
 
 .pag-link {
-    text-decoration: none;
-    color: #292929;
+  text-decoration: none;
+  color: #292929;
 }
 
 .mainCategoryCardTitle {
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 6px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 6px;
 }
 
 .mainCategoryCardDescription {
-    padding: 6px;
+  padding: 6px;
 }
 
 .sidebarContent {
-    background-color: #d5d9e7;
-    color: black;
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 300px;
-    grid-area: sidebarContent;
-    gap: 20px;
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
-    border: 2px solid #8f8f8f;
-    border-radius: 15px;
-    flex-wrap: wrap;
+  background-color: #fff;
+  color: #231500;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 300px;
+  grid-area: sidebarContent;
+  gap: 20px;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  border: 2px solid #e4811e;
+  border-radius: 15px;
+  flex-wrap: wrap;
 }
 
 .IMC {
-    display: flex;
-    flex-direction: column;
-    row-gap: 20px;
-    padding-bottom: 20px;
-    background-color: #d5d9e7;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  padding-bottom: 20px;
+  background-color: #fff;
+  flex-wrap: wrap;
 }
 
 .sidebarCard {
-    width: 75%;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    transition: 0.5s;
-    cursor: pointer;
+  width: 75%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .sidebarCardImg {
-    width: 100%;
-    border-radius: 10px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .sidebarCardTitle {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  padding: 10px;
 }
 
 .sidebarCard:hover {
-    border-color: gainsboro;
+  border-color: gainsboro;
 }
 
-
 .btnCalcular {
-    /* background-color: #2143b3; */
-    width: 72%;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 10px;
-    border: 2px;
-    border-color: #8f8f8f;
-    /* color: rgb(0, 17, 3); */
-    font-size: 20px;
-    margin-top: 30px;
+  background-color: #e4811e;
+  width: 72%;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px;
+  border-color: #e4811e;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
 .btnCalcular:hover {
-    background-color: #9699ef;
+  background-color: #f5c89b;
 }
 
 input {
-    width: 100%;
-    height: 40px;
-    box-shadow: 2px 2px 2px rgb(196, 196, 196);
-    border: none;
-    border-radius: 5px;
-    background-color: #dfdfdf;
-    padding: 6px;
+  width: 100%;
+  height: 40px;
+  box-shadow: 2px 2px 2px rgb(196, 196, 196);
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 6px;
 }
 
 @media (max-width: 630px) {
-    .gridContainer {
-        grid-template-areas:
-            "mainContent"
-            "sidebarContent";
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 10px;
-    }
+  .gridContainer {
+    grid-template-areas:
+      "mainContent"
+      "sidebarContent";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
 
-    .footerAnchor {
-        font-size: 19px;
-    }
+  .footerAnchor {
+    font-size: 19px;
+  }
 }
 
 @media (max-width: 370px) {
-    .sidebarContent {
-        padding: 1px;
-    }
+  .sidebarContent {
+    padding: 1px;
+  }
 }
 
-.copy{
-    color:#fff;
+.copy {
+  color: #fff;
 }

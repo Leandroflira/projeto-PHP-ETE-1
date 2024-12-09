@@ -1,10 +1,10 @@
 <div class="container">
     <header class="header">
-      <a class="logo" href="index.php">InfoSports</a>
+      <a class="logo"  href="<?=constant('URL_LOCAL_SITE_PAGINA').'principal'?>">InfoSports</a>
       <div class="headerBtnGroup">
       <?php include_once("menuTopo.php");?>
         <div>
-          <input type="checkbox" class="check" id="chk" />
+          <input type="checkbox" class="check" id="chk" >
         
           <label class="label" for="chk">
             <i class="fas fa-moon"></i>
@@ -22,7 +22,7 @@
     <section class="main">
       <div class="box-content">
         <form method="Post" action="#">
-          <h1>Cadastrar Notícia</h1>
+          <h1>Registrar Notícia</h1>
           <div class="name">
             <label for="nome"></label>
             <input type="text" placeholder="Título" id="titulo" name="titulo" >
@@ -54,7 +54,7 @@
       </div>
     </section>
     <footer class="footer">
-      <span>Info Sports</span>
+      <span>InfoSports</span>
       <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
     </footer>
   </div>

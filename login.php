@@ -38,8 +38,8 @@
         </form>
       </div>
     </section>
-    <footer class="footer">
-      <span>Info Sports</span>
-      <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
-    </footer>
   </div>
+  <footer class="footer">
+    <span>Info Sports</span>
+    <a href="#backToTop" class="footerAnchor">VOLTAR PARA O TOPO</a>
+  </footer>

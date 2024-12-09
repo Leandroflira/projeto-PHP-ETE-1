@@ -112,7 +112,7 @@ include_once("header.php");
     include_once("contato.php");
   }elseif($paginaUrl === "login"){
     include_once("login.php");
-    var_dump($login,$senha);
+    // var_dump($login,$senha);
   }elseif($paginaUrl === "registro"){
     include_once("registro.php");
   }elseif($paginaUrl === "cadastrar-categoria"){
